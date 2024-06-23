@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 22px;
+}
+
+#bio {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+section {
+    padding: 20px;
+}
+
+#hobbies {
+    color: #4CAF50;
+}
+
+#hobbies_card {
+    display: flex;
+}
+
+#hobbies .card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+#hobbies .card h3 {
+    margin-top: 0;
+}
+
+#hobbies .card p {
+    margin-bottom: 0;
+}
+
+#education {
+    background: #4CAF50;
+    color: white;
+}
+
+.school {
+    margin: 35px 0;
+}
+
+#contact {
+    color: #4CAF50;
+    height: 250px;
+}
+
+#contact a {
+    color: #4CAF50;
+}
+
+#contact-body {
+    text-align: center;
+}
+
+#contact-body a:hover {
+    color: orange;
+}
+
+.contact-btn {
+    padding: 10px 15px;
+    color: #4CAF50;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px #4CAF50 solid;
+    font-size: 14px;
+}
+
+.contact-btn:hover {
+    color: orange;
+    border: orange 2px solid;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
